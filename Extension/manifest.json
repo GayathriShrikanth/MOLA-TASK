@@ -1,0 +1,19 @@
+{
+  "name": "Twitter Sentiment Analyzer",
+  "version": "1.0",
+  "description": "Detect Mood of Tweets on Timeline",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://twitter.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "manifest_version": 3
+}
