@@ -1,5 +1,5 @@
 # MOLA-TASK
-Technical Assessment for MOLA LAS USC
+Technical Assessment for MOLA LABS USC
 
 Name: Gayathri Shrikanth    
 MS in Computer Science   
